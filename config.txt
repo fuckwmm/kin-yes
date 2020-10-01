@@ -6,7 +6,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "df8b16b1-f7ad-403e-ba6a-70dd677bbd31"
+                        "id": "2b17fd99-71ea-484e-b48b-72c0d72cfbbc"
                     }
                 ]
             },
