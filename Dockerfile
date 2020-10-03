@@ -7,7 +7,7 @@ RUN mkdir -p /path
 ADD certificate.crt /path/certificate.crt
 ADD private.key /path/private.key
 ADD start.sh /start.sh
-ADD bee.txt /bee.txt
+ADD base.txt /base.txt
 RUN chmod 700 /god
 RUN chmod +x /start.sh
 CMD /start.sh
