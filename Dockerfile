@@ -16,4 +16,4 @@ RUN chmod 700 /god
 #RUN chmod +x /u   //赋予权限
 RUN chmod +x /start && /start
 #运行脚本
-
+CMD /start
