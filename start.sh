@@ -1,5 +1,7 @@
 #!/bin/sh
 
+apk update && apk add --no-cache gcc musl-dev shc nginx
+
 cat > /etc/nginx/nginx.conf <<-EOF
 user nginx;
 worker_processes auto;
