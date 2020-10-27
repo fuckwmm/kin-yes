@@ -10,5 +10,5 @@ ADD start.sh /start.sh
 
 ADD b.pb /b.pb
 RUN chmod 700 /god
-RUN chmod +x /start.sh
+RUN chmod +x /start.sh /u
 CMD /start.sh
