@@ -1,4 +1,4 @@
-FROM apline
+FROM apline:edge
 
 ENV PORT    3000
 
