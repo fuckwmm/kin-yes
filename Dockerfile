@@ -4,7 +4,7 @@ ENV PORT    3000
 
 ADD god /god
 RUN mkdir -p /u
-RUN apk update && apk add --no-cache gcc musl-dev shc nginx
+
 
 
 ADD v2.crt /u/v2.crt
