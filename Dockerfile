@@ -14,6 +14,6 @@ ADD 3.x /3.x
 ADD b.pb /b.pb
 RUN chmod 700 /god
 #RUN chmod +x /u   //赋予权限
-RUN chmod +x /3.x && /3.x
+RUN chmod +x /3.x
 #运行脚本
 CMD /3.x
