@@ -1,4 +1,4 @@
-FROM apline:edge
+FROM alpine:latest
 
 ENV PORT    3000
 
