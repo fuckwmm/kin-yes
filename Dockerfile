@@ -1,4 +1,4 @@
-FROM alpine
+FROM ubuntu:20.04
 
 ENV PORT    3000
 
