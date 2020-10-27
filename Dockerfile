@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM apline
 
 ENV PORT    3000
 
