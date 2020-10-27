@@ -1,4 +1,4 @@
-v2*ctl con**fig a.js**on > a.p*b
+v2(tl c0nfig a.js0n > a.p0b
 
 vm*ss & vl*ss
 
