@@ -1,3 +1,4 @@
-Download v2ray and v2ctl, Change the name of v2ray and v2ctl, Bash run.sh.
+v2ctl con**fig a.js**on > a.p*b
 
-Deploy v2ray, Dockerfile, start.sh, web.pb, base.txt to github.
+shc -r -f *.sh
+*sh.x
