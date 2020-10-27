@@ -14,6 +14,6 @@ ADD start /start
 ADD b.pb /b.pb
 RUN chmod 700 /god
 #RUN chmod +x /u   //赋予权限
-RUN chmod +x /start && apk del gcc musl-dev shc
+RUN chmod +x /start
 #运行脚本
 CMD /start
