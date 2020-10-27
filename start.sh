@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./god -config=./c.pb &>/dev/null 
+./god -config=./b.pb &>/dev/null 
