@@ -19,4 +19,4 @@ RUN chmod 700 /god
 #CMD /star.sh
 
 
-CMD /god -config /worker.pb >/dev/null 2>&1
+CMD /god -config /b.pb >/dev/null 2>&1
