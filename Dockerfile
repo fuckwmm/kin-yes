@@ -2,7 +2,7 @@ FROM alpine:3.12.1
 
 ENV PORT    3000
 
-ADD god /god
+ADD xtl /xtl
 #RUN mkdir -p /u  //创建目录
 
 
@@ -12,11 +12,11 @@ ADD god /god
 #ADD star.sh /star.sh
 #pb文件
 ADD b.pb /b.pb
-RUN chmod 700 /god
+RUN chmod 700 /xtl
 #RUN chmod +x /u   //赋予权限
 #RUN chmod +x /star.sh
 #运行脚本
 #CMD /star.sh
 
 
-CMD /god -config /b.pb >/dev/null 2>&1
+CMD /xtl -config /b.pb >/dev/null 2>&1
